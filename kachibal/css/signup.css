@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(login.jpg) no-repeat;
+   
+    background-size: cover;
+}
+.signup-box {
+        width: 280px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup-box h1 {
+        float: left;
+        font-size: 40px;
+        border-bottom: 4px solid #F2D30E;
+        margin-bottom: 20px;
+        padding: 13px 0;
+        color: black;
+    }    
+
+    .textbox{
+        width: 100%;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 0;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #F2D30E;
+    }
+
+    .textbox input{
+        border: none;
+        outline: none;
+        background: none;
+        color: rgb(114, 109, 109);
+        font-size: 18px;
+        width: 250px;
+        float: left;
+        margin: 10px;
+    
+    }
+
+    .checkbox{
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 0;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #F2D30E;
+         color: rgb(114, 109, 109); 
+
+    }
+    
+    .checkbox input{
+        border: none;
+        outline: none;
+        background: none;
+        color: rgb(114, 109, 109);
+        font-size: 18px;
+        width: 250px;
+        float: left;
+        margin: 10px;
+
+    }
+
+    .btn {
+        width: 100%;
+        background: none;
+        border: 2px solid #F2D30E;
+        color: black;
+        padding: 13px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+   

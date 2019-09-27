@@ -1,0 +1,477 @@
+body {
+	background-color:#f6f6f4;
+	margin: 0 auto;
+	width: 1100px;
+}
+#Content{
+	width: 100%;
+	margin:0 auto;
+}
+#divNje
+{
+	height: 414px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#divDy
+{
+	height: 500px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2e5e7d;
+	position: static;
+}
+.ndarjeNje{
+	height: 50px;
+	width: 100%;
+	background-color: #1a3342;
+}
+#divTre
+{
+	height: 400px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+.ndarjeDy{
+	height: 50px;
+	width: 100%;
+	background-color: #1a3342;
+	display: flex;
+	justify-content: space-between;
+}
+#divKater
+{
+	height: 183px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2e5e7d;
+	display: flex;
+	justify-content: space-between;
+}
+.Navigation
+{
+	height: 225px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.Logo
+{
+	height: 225px;
+	width: 200px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.plogo
+{
+	height: 30px;
+	width: 100%;
+	font-size: 30px;
+	color: #9d9d9b;
+	 font-family: "Tahoma";
+}
+.psleugon
+{	
+	width: 100%;
+	height: 10px;
+	font-size: 10px;
+	margin-top: -30px;
+	 font-family: "Tahoma";
+}
+.Menu
+{
+	width: 700px;
+	height: 225px;
+	float: right;
+	display:flex;
+	justify-content: space-evenly;
+	
+}
+.Menu a{
+	text-decoration: none;
+	width: 125px;
+	height: 125px;
+	font-size: 19px;
+	color: #326281;
+	 font-family: "Tahoma";
+}
+a:hover {
+	color: #b6b5b5; 
+	background-image: linear-gradient(#77cee6,#356787);
+}
+.Menu a:nth-child(2){
+	color: white;
+}
+.Home
+{
+	width: 125px;
+	height: 125px;
+	float: left;
+	text-align: center;
+}
+.Home:hover {
+	background-image: linear-gradient(#77cee6,#356787);
+}
+.About
+{
+	width: 125px;
+	height: 125px;
+	float: left;
+	text-align: center;
+	height: 100%;
+}
+.Portofolio
+{
+	width: 125px;
+	height: 125px;
+	float: left;
+	text-align: center;
+}
+.Contact
+{
+	width: 125px;
+	height: 125px;
+	float: left;
+	text-align: center;
+}
+.Pmenu
+{
+	font-size: 19px;
+	color: #326281;
+	 font-family: "Tahoma";
+	margin-top: 80px;
+}
+.Pmenu2
+{
+	font-size: 19px;
+	color: white;
+	 font-family: "Tahoma";
+	 margin-top: 80px;
+}
+.Smenu
+{
+	font-size: 10px;
+	color: #b5b5b4;
+	 font-family: "Tahoma";
+	 margin-top: -20px;
+
+}
+.Smenu2
+{
+	font-size: 10px;
+	color: #bed7e8;
+	 font-family: "Tahoma";
+	 margin-top: -20px;
+}
+/* Slideshow container */
+.slideshow {
+  max-width: 1050px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 300px;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*Ketu fillon divDy */
+.contentText{
+ 	width: 650px;
+	height: 100px;
+	font-size: 18px;
+	float: left;
+  font-family: "Tahoma";
+  color: #dddddd;
+  line-height: 1;
+  text-align: left;
+  margin-top: 352px;
+  margin-left: 28px;
+ }
+
+.contentText2{
+	width: 650px;
+	height: 50px;
+	font-size: 14px;
+	float: left;
+  font-family: "Tahoma";
+  line-height: 1;
+  text-align: left;
+  color: #dddddd;
+  margin-top: -78px;
+  margin-left: 28px;
+}
+#divDy img{
+	float:right;
+	margin-top: -120px;
+	margin-right: 20px;
+}
+.btnDescription{
+	width: 650px;
+	height: 50px;
+	font-size: 12px;
+	float: right;
+	margin-right: -430px;
+	margin-top: -65px;
+	font-family: "Tahoma";
+	color: #dddddd;
+	 line-height: 1;
+}
+
+.text1{
+	width: 100%;
+	font-size: 12px;
+	float: left;
+	font-family: "Tahoma";
+	color: white;
+	margin-left: 10px;
+	margin-top: 15px;
+	color: #ffffff;
+}
+/*Ketu fillon divTre*/
+.CurrentP{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+.CurrentP p:first-child{
+  font-size: 20px;
+  font-family: "Tahoma";
+  color: rgb(114, 114, 114);
+  font-weight: bold;
+  line-height: 0.581;
+}
+.CurrentP p:last-child {
+  font-size: 12px;
+  font-family: "Tahoma";
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 0.969;
+  margin-top: -12px;
+ }
+.squaresContainer{
+	width: 100%;
+	height: 130px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.box{
+	border: 3px solid black;
+}
+.box:nth-child(2){
+	border-color: #1e8ace;
+}
+.newsContainer{
+	width: 100%;
+	height: 130px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.News{
+	width: 205px;
+	height: 55px;
+	font-size: 12px;
+  	font-family: "Tahoma";
+  	color: rgb(84, 84, 84);
+  	line-height: 1.75;
+}
+.ndarjeDy ul li {
+	display: inline;
+	margin-left: -30px;
+	margin-right: 45px;	
+}
+.ndarjeDy ul li a{
+	text-decoration:none;
+	font-size: 11px;
+  	font-family: "Tahoma";
+ 	color: rgb(255, 255, 255);
+  	line-height: 2.727;
+}
+.ndarjeDy p{
+	font-size: 11px;
+  	font-family: "Tahoma";
+  	color: rgb(255, 255, 255);
+  	line-height: 2.727;
+  	margin-right: 10px;
+
+}
+/*ketu fillon divKater*/
+.logot{
+	width: 115px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+.logot img{
+	margin-right: 3px;
+}
+.Copyright{
+	font-size: 12px;
+	font-family: "Tahoma";
+	color: white;
+	margin-right: 10px;
+	margin-top: 25px
+}
+/*abous us shtesat*/
+.texti{
+	height: 300px;
+	width: 70%;
+	text-align: center;
+	font-family: "Tahoma";
+	color: white;
+	font-size: 20px;
+	margin-left: 160px;
+	padding-top: 100px;
+	line-height: 25px;
+}
+/*Contact shtesat*/
+.contactInfo{
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+.contactInfo p{
+	color: white;
+	margin-left: 180px;
+	font-family: "Tahoma";
+}
+.contactInfo2{
+	float: right;
+	width: 500px;
+	height: 300px;
+	margin-right: 50px;
+}
+.contactInfo2 p{
+	color: white;
+	font-family: "Tahoma";
+}
+.lokacioni{
+	height: 300px;
+}
+/*Portofolio*/
+#divDyPortofolio
+{
+	height: 800px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2e5e7d;
+	position: static;
+}
+.portofolioContainer{
+	display: flex;
+	justify-content: space-around;
+}
+.lajmet{
+	width: 300px;
+	margin-top: 50px;
+}
+.lajmet h1{
+	margin-bottom: 50px;
+	font-family: "Tahoma";
+	color: white;
+}
+.lajmet img{
+	width: 300px;
+	height: 300px;
+}
+.lajmet p{
+	font-size: 18px;
+	font-family: "Tahoma";
+	color: white;
+}
+.contactForm{
+	width: 30%;
+	height: 200px;
+}
+.LoginForm{
+	color: #326281;
+	font-family: "Tahoma";
+	width: 150px;
+	margin-left: 10px;
+}
+.Contactforma{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 10px;
+}
+.Gjinija{
+	display: inline;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.label {
+    display: block;
+    margin-bottom: 2px;
+}
+.pristine-error{
+	color: red;
+	font-size: 12px;
+}
+/*Burger Menu */
+label{
+	margin-right: 40px;
+	font-size: 26px;
+	margin-right: 40px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: left;
+}
+
+#toggle{
+	display: none;
+}
+@media only screen and (max-width:500px ) {
+  label{
+  	display: block;
+  	margin-top: 55px;
+  }
+  .Menu{
+  	text-align: center;
+  	width: 100%;
+  	display: none;
+  }
+  .Menu a{
+  	display: block;
+  	height: 30px;
+  }
+  #toggle:checked + .Menu{
+  	display: inline-block;
+  }
+
+}
